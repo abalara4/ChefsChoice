@@ -1,0 +1,36 @@
+# Node dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# VS Code settings
+.vscode/
+
+# OS-specific
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# React temporary files
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Testing
+coverage/
+
+# Optional: skip lockfiles (if you're using yarn or npm)
+# package-lock.json
+# yarn.lock
